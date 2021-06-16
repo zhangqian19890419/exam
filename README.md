@@ -1,10 +1,10 @@
 # exam
-ex01.py
+#ex01.py
 str = input('文字列を入力してください:')
 print(len(str))
 
 
-ex03.py
+#ex03.py
 mail = input('メールアドレスを入力してください:')
 
 a = '@'
@@ -17,7 +17,7 @@ def slicemail():
 slicemail()
 
 
-ex04.py
+#ex04.py
 username1 = "yoshino"
 password1 = "yt1974"
 
@@ -29,7 +29,7 @@ if username == username1 and password == password1:
 else:
 	print('IDかパスワードが違います')
   
-  ex05.py
+#ex05.py
   def listreplace():
 	list = [13,17,31,57,' ',41,83]
 	list.remove(' ')
